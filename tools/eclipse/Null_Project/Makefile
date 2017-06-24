@@ -5,13 +5,14 @@
 
 NAME=null
 
-ARM-NONE-EABI-GCC-LOCATION=/opt/local/bin
+# This define can be populated if the tools are not in the path.
+ARM-NONE-EABI-GCC-LOCATION=
 
-AS=$(ARM-NONE-EABI-GCC-LOCATION)/arm-none-eabi-as
-CC=$(ARM-NONE-EABI-GCC-LOCATION)/arm-none-eabi-gcc
-LD=$(ARM-NONE-EABI-GCC-LOCATION)/arm-none-eabi-ld
-OBJDUMP=$(ARM-NONE-EABI-GCC-LOCATION)/arm-none-eabi-objdump
-OBJCOPY=$(ARM-NONE-EABI-GCC-LOCATION)/arm-none-eabi-objcopy
+AS=$(ARM-NONE-EABI-GCC-LOCATION)arm-none-eabi-as
+CC=$(ARM-NONE-EABI-GCC-LOCATION)arm-none-eabi-gcc
+LD=$(ARM-NONE-EABI-GCC-LOCATION)arm-none-eabi-ld
+OBJDUMP=$(ARM-NONE-EABI-GCC-LOCATION)arm-none-eabi-objdump
+OBJCOPY=$(ARM-NONE-EABI-GCC-LOCATION)arm-none-eabi-objcopy
 
 AS_SOURCE=vectors.s main.s
 MEMMAP=memmap.ld

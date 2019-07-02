@@ -18,7 +18,7 @@ This is the public facing repository for the hardware reverse engineering class 
 
 **Outcome:** Teach basic HW RE tools skills; capture serial boot logs; extract firmware and perform interactive debugging via JTAG.
 
-#License
+# License
 
 This work is licensed under the Creative Commons Attribution 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 

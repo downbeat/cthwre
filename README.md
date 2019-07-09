@@ -14,8 +14,6 @@ This is the public facing repository for the hardware reverse engineering class 
 ## CyberTruck 2017
 **Instructor:** Russ Bielawski & Bill Hass
 
-**Target:** PeopleNet G3 Onboard Computer
-
 **Outcome:** Teach basic HW RE tools skills; capture serial boot logs; extract firmware and perform interactive debugging via JTAG.
 
 # License
